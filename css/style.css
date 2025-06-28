@@ -38,10 +38,6 @@
     padding-top: 68px;
     padding-bottom: 100px;
 }
-.main-title-combinat {
-    display: flex;
-    justify-content: center;
-}
 .main-list {
     display: flex;
     flex-wrap: wrap;
@@ -64,16 +60,22 @@
     height: 74px;
 }
 .main-subtitle {
+    display: flex;
+    justify-self: center;
     font-family: var(--third-family);
     font-weight: 400px;
     font-size: 24px;
     color: var(--title-color);
+    padding-bottom: 20px;
+    width: 133px;
 }
 .main-title {
+    display: flex;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 30px;
     color: #333;
+    justify-self: center;
 }
 .main-text {
     font-family: var(--second-family);
@@ -144,6 +146,7 @@
     align-items: center;
     color: #b6b6b6;
 }
+
 .footer-text {
     font-family: var(--font-family);
     font-weight: 400;
